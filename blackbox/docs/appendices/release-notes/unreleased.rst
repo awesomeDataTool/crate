@@ -42,6 +42,9 @@ None
 Changes
 =======
 
+- Removed unused setting: ``cluster.graceful_stop.reallocate`` from code,
+  data dictionary and docs.
+
 - Added a node check that checks the JVM version under which CrateDB is
   running. We recommend users to upgrade to JVM 11 as support for older
   versions will be dropped in the future.
